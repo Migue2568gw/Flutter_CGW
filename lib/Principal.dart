@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:proyect/HomePrincipal.dart';
 
 class Principal extends StatelessWidget {
-  const Principal ({super.key});
+  const Principal({super.key});
 
   @override
-  Widget build (BuildContext context){
-    return MaterialApp( 
-      title: "Politecnico: Primera Clase",
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "Calculadora",
       debugShowCheckedModeBanner: false,
       home: Homeprincipal(),
     );
